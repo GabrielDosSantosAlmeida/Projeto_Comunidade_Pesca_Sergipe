@@ -5,31 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comunidades de Pesca</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""/>
 </head>
-
 <body>
     <header>
         <nav>
-            <a class= "logo" href="/">Projeto Pescadores</a>
+            <div class="logo-container" > 
+                <img src="images/pescador.png" alt= "pescador" class="logo-image">
+                <a class= "logo" href="/Projeto_Comunidade_Pesca_Sergipe/projetoPesca/index.html">Projeto Pescadores</a>
+            </div>
+            
             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
             <ul class="nav-list">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Mapa</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="/Projeto_Comunidade_Pesca_Sergipe/projetoPesca/index.html">Início</a></li>
+                <li><a href="#">Municípios</a></li>
+                <li><a href="/Projeto_Comunidade_Pesca_Sergipe/projetoPesca/SobreNos.html">Sobre Nós</a></li>
+                <li><a href="/Projeto_Comunidade_Pesca_Sergipe/projetoPesca/Contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main> 
         <div id="map"></div>
+        <div class="text-with-icon">
+            <img src="leaflet/images/marker-icon.png" class="icon-left">
+            <p>Para descobrir mais informações sobre o município em questão e suas comunidades de pescadores, clique no ícone correspondente no mapa.</p>
+        </div>
     </main>
     <script src="mobile-navbar.js"></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
