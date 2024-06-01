@@ -39,7 +39,7 @@ nav {
 }
     
 main{
-    background: url("/Projeto_Comunidade_Pesca_Sergipe/projetoPesca/style/images/BackGround.png") no-repeat center center;
+    background: url("/projetoPesca/style/images/BackGround.png") no-repeat center center;
     background-size: cover ;
     height: 92vh;
     z-index: -1;
@@ -150,16 +150,24 @@ main{
 
 .dropdown-menu{
     position: absolute;
-    box-shadow: 0 0 2px black;
+    box-shadow: 0px 0px 6px black;
     display: none;
-    background-color: #0D3D2B;
+    background-color:#0D3D2B;
+    margin-top: 10px;
 }
 
 .dropdown-menu a{
     display: block;
-    color:#fff;
+    color:#9EBD98;
+    
 }
 
-.dropdown:hover .dropdown-menu{
-    display: block;
+.dropdown-text{
+    margin: 8px;
+    color: #9EBD98;
+    background-color: transparent;
+}
+.dropdown-text:hover{
+    margin: 8px;
+    background-color:#08281c ;
 }
