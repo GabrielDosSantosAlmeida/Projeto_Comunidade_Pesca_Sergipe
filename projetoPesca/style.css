@@ -27,6 +27,9 @@ a:hover {
     height: 40px;
     width: 40px;
 }
+body{
+    background: url("/projetoPesca/style/images/BackGround.png") repeat center center/cover;    
+}
     
 nav {
     display: flex;
@@ -39,9 +42,9 @@ nav {
 }
     
 main{
-    background: url("/projetoPesca/style/images/BackGround.png") no-repeat center center;
-    background-size: cover ;
-    height: 92vh;
+    background: url("/projetoPesca/style/images/BackGround.png") repeat center center/cover;
+    height: 100vh;
+    width: 100%;
     z-index: -1;
 }
     
@@ -175,6 +178,7 @@ main{
     border: 5px groove black !important;
     padding: 0 1.4em 1.4em 1.4em !important;
     margin: 0 0 1.5em 0 !important;
+    background-color:;
   }
   
 .fieldset-border .legend-border {
@@ -196,6 +200,32 @@ main{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.fieldset-border2 {
+    border: 5px groove black !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 60px 0 !important;
+    background-color:white;
+  }
+  
+.fieldset-border2 .legend-border2 {
+    font-size:xx-large !important;
+    text-align: left !important;
+    width: auto;
+    padding: 0 10px;
+    border-bottom: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.fieldset-border2 a{
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #08281c;
+}
+
+.fieldset-border2 b{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .imgAndText {
     display: inline-flex;
 }
@@ -203,4 +233,8 @@ main{
 .imgAndText img{
     max-height: 8vh;
     margin-right: 2vh;
+}
+
+.box-Perguntas2{
+margin-top: 3vh;
 }
