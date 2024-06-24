@@ -32,7 +32,7 @@ async function init() {
   
   function zoomToFeature(e) {
     map.fitBounds(e.target.getBounds());
-
+    setTimeout(() => {window.location.href = "/projetoPesca/municipios/" + e.target.feature.properties.html + ".html";}, 500);
   }
   function onEachFeature(feature, layer) {
     layer.on({
@@ -52,8 +52,7 @@ async function init() {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
     this._div.innerHTML = '<h4>Nome do Município</h4>' +  (props ?
-        '<b>' + props.name + '</b><br />': 'Deslize para ver');
-        console.log(props);
+        `<b id="${props.name}"> ${props.name} </b><br />`: 'Deslize para ver');
 };
 
 info.addTo(map);
@@ -87,7 +86,7 @@ function style(feature) {
 
 const markers = [
   {
-    city: "CanideDeSaoFrancisco",
+    city: "CanindeDeSaoFrancisco",
     lat: -9.703975588848479,
     long: -37.920994794358734,
   },

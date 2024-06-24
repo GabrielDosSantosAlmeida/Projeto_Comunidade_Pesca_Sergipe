@@ -80,7 +80,7 @@
           ]
         ]
       },
-      "properties": { "BrejoGrande": 2800704, "name": "Brejo Grande"},
+      "properties": { "BrejoGrande": 2800704, "name": "Brejo Grande", "html":"BrejoGrande"},
       "id": 0
     },
     {
@@ -172,7 +172,7 @@
           ]
         ]
       },
-      "properties": { "Canhoba": "2801108" ,"name": "Canhoba"},
+      "properties": { "Canhoba": "2801108" ,"name": "Canhoba","html":"Canhoba"},
       "id": 1
     },
     {
@@ -668,7 +668,7 @@
           ]
         ]
       },
-      "properties": { "CanideDoSaoFrancisco": "2801207","name": "Canidé do São Francisco"},
+      "properties": { "CanindeDoSaoFrancisco": "2801207","name": "Canindé do São Francisco", "html":"CanindeDeSaoFrancisco"},
       "id": 2
     },
     {
@@ -1168,7 +1168,7 @@
           ]
         ]
       },
-      "properties": { "Gararu": "2802403","name": "Gararu"},
+      "properties": { "Gararu": "2802403","name": "Gararu", "html":"Gararu"},
       "id": 3
     },
     {
@@ -1261,7 +1261,7 @@
           ]
         ]
       },
-      "properties": { "IlhaDasFlores": "2802700","name": "Ilha das Flores" },
+      "properties": { "IlhaDasFlores": "2802700","name": "Ilha das Flores","html":"IlhaDasFlores" },
       "id": 4
     },
     {
@@ -1506,7 +1506,7 @@
           ]
         ]
       },
-      "properties": { "Neopolis": 2804409,"name": "Neópolis"},
+      "properties": { "Neopolis": 2804409,"name": "Neópolis", "html":"Neopolis"},
       "id": 6
     },
     {
@@ -1576,7 +1576,7 @@
           ]
         ]
       },
-      "properties": { "NossaSenhoraDeLourdes": 2804706,"name": "Nossa Senhora de Lourdes"},
+      "properties": { "NossaSenhoraDeLourdes": 2804706,"name": "Nossa Senhora de Lourdes", "html":"NossaSenhoraDeLourdes"},
       "id": 7
     },
     {
@@ -1894,7 +1894,7 @@
           ]
         ]
       },
-      "properties": { "PocoRedondo": "2805406", "name": "Poço Redondo"},
+      "properties": { "PocoRedondo": "2805406", "name": "Poço Redondo","html":"PocoRedondo"},
       "id": 8
     },
     {
@@ -2239,7 +2239,7 @@
           ]
         ]
       },
-      "properties": { "PortoDaFolha": "2805604","name": "Porto da Folha"},
+      "properties": { "PortoDaFolha": "2805604","name": "Porto da Folha","html":"PortoDaFolha"},
       "id": 9
     },
     {
@@ -2281,7 +2281,7 @@
           ]
         ]
       },
-      "properties": { "AmparoDeSaoFrancisco": "2800100","name": "Amparo de São Francisco"},
+      "properties": { "AmparoDeSaoFrancisco": "2800100","name": "Amparo de São Francisco","html":"AmparoDoSaoFrancisco"},
       "id": 10
     },
     {
@@ -2329,7 +2329,7 @@
           ]
         ]
       },
-      "properties": { "SantanaDoSaoFrancisco": 2806404, "name": "Santana do São Francisco"},
+      "properties": { "SantanaDoSaoFrancisco": 2806404, "name": "Santana do São Francisco","html":"SantanaDoSaoFrancisco"},
       "id": 11
     },
     {
@@ -2491,7 +2491,7 @@
           ]
         ]
       },
-      "properties": { "Propria": "2805703","name": "Propriá"},
+      "properties": { "Propria": "2805703","name": "Propriá","html":"Propria"},
       "id": 12
     },
     {
@@ -2536,7 +2536,7 @@
           ]
         ]
       },
-      "properties": { "Telha": "2807303","name": "Telha"},
+      "properties": { "Telha": "2807303","name": "Telha", "html":"Telha" },
       "id": 5
     }
   ]
