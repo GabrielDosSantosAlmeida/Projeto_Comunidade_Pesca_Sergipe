@@ -71,6 +71,14 @@ nav {
     margin: 8px;
     transition: 0.3s;
 }
+
+.content-title{
+    color: #fff;
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 8px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
     
 @media (max-width:999px){
     body{
