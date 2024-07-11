@@ -80,7 +80,7 @@
           ]
         ]
       },
-      "properties": { "BrejoGrande": 2800704, "name": "Brejo Grande", "html":"BrejoGrande"},
+      "properties": { "BrejoGrande": 2800704, "name": "Brejo Grande", "html":"BrejoGrande", "imageUrl":"municipios/bandeiras/Brejo_Grande-bandeira.jpg"},
       "id": 0
     },
     {
@@ -172,7 +172,7 @@
           ]
         ]
       },
-      "properties": { "Canhoba": "2801108" ,"name": "Canhoba","html":"Canhoba"},
+      "properties": { "Canhoba": "2801108" ,"name": "Canhoba","html":"Canhoba", "imageUrl":"municipios/bandeiras/canhoba-bandeira.png"},
       "id": 1
     },
     {
@@ -668,7 +668,7 @@
           ]
         ]
       },
-      "properties": { "CanindeDoSaoFrancisco": "2801207","name": "Canindé do São Francisco", "html":"CanindeDeSaoFrancisco"},
+      "properties": { "CanindeDoSaoFrancisco": "2801207","name": "Canindé de São Francisco", "html":"CanindeDeSaoFrancisco", "imageUrl":"municipios/bandeiras/caninde-bandeira.png"},
       "id": 2
     },
     {
@@ -1168,7 +1168,7 @@
           ]
         ]
       },
-      "properties": { "Gararu": "2802403","name": "Gararu", "html":"Gararu"},
+      "properties": { "Gararu": "2802403","name": "Gararu", "html":"Gararu", "imageUrl":"municipios/bandeiras/gararu-bandeira.png"},
       "id": 3
     },
     {
@@ -1261,7 +1261,7 @@
           ]
         ]
       },
-      "properties": { "IlhaDasFlores": "2802700","name": "Ilha das Flores","html":"IlhaDasFlores" },
+      "properties": { "IlhaDasFlores": "2802700","name": "Ilha das Flores","html":"IlhaDasFlores", "imageUrl":"municipios/bandeiras/Ilha_Das_Flores-bandeira.png"},
       "id": 4
     },
     {
@@ -1506,7 +1506,7 @@
           ]
         ]
       },
-      "properties": { "Neopolis": 2804409,"name": "Neópolis", "html":"Neopolis"},
+      "properties": { "Neopolis": 2804409,"name": "Neópolis", "html":"Neopolis", "imageUrl":"municipios/bandeiras/neopolis-bandeira.png"},
       "id": 6
     },
     {
@@ -1576,7 +1576,7 @@
           ]
         ]
       },
-      "properties": { "NossaSenhoraDeLourdes": 2804706,"name": "Nossa Senhora de Lourdes", "html":"NossaSenhoraDeLourdes"},
+      "properties": { "NossaSenhoraDeLourdes": 2804706,"name": "Nossa Senhora de Lourdes", "html":"NossaSenhoraDeLourdes", "imageUrl":"municipios/bandeiras/Nossa_Senhora_De_Lourdes-bandeira.png"},
       "id": 7
     },
     {
@@ -1894,7 +1894,7 @@
           ]
         ]
       },
-      "properties": { "PocoRedondo": "2805406", "name": "Poço Redondo","html":"PocoRedondo"},
+      "properties": { "PocoRedondo": "2805406", "name": "Poço Redondo","html":"PocoRedondo", "imageUrl":"municipios/bandeiras/poco_redondo-bandeira.png"},
       "id": 8
     },
     {
@@ -2239,7 +2239,7 @@
           ]
         ]
       },
-      "properties": { "PortoDaFolha": "2805604","name": "Porto da Folha","html":"PortoDaFolha"},
+      "properties": { "PortoDaFolha": "2805604","name": "Porto da Folha","html":"PortoDaFolha", "imageUrl":"municipios/bandeiras/Porto_da_Folha-bandeira.png"},
       "id": 9
     },
     {
@@ -2281,7 +2281,7 @@
           ]
         ]
       },
-      "properties": { "AmparoDeSaoFrancisco": "2800100","name": "Amparo de São Francisco","html":"AmparoDoSaoFrancisco"},
+      "properties": { "AmparoDeSaoFrancisco": "2800100","name": "Amparo de São Francisco","html":"AmparoDoSaoFrancisco", "imageUrl":"municipios/bandeiras/Amparo_de_Sao_Francisco-bandeira.jpg"},
       "id": 10
     },
     {
@@ -2329,7 +2329,7 @@
           ]
         ]
       },
-      "properties": { "SantanaDoSaoFrancisco": 2806404, "name": "Santana do São Francisco","html":"SantanaDoSaoFrancisco"},
+      "properties": { "SantanaDoSaoFrancisco": 2806404, "name": "Santana do São Francisco","html":"SantanaDoSaoFrancisco", "imageUrl":"municipios/bandeiras/Santana_de_São_Francisco-bandeira.jpg"},
       "id": 11
     },
     {
@@ -2491,7 +2491,7 @@
           ]
         ]
       },
-      "properties": { "Propria": "2805703","name": "Propriá","html":"Propria"},
+      "properties": { "Propria": "2805703","name": "Propriá","html":"Propria", "imageUrl":"municipios/bandeiras/propria-bandeira.jpg"},
       "id": 12
     },
     {
@@ -2536,7 +2536,7 @@
           ]
         ]
       },
-      "properties": { "Telha": "2807303","name": "Telha", "html":"Telha" },
+      "properties": { "Telha": "2807303","name": "Telha", "html":"Telha", "imageUrl":"municipios/bandeiras/Telha-bandeira.jpg" },
       "id": 5
     }
   ]

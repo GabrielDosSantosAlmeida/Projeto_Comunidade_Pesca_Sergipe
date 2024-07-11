@@ -1,4 +1,4 @@
-var map = L.map("map").setView([-10.1274, -37.3042], 10);
+var map = L.map("map").setView([-10.0574, -37.3142], 10);
 var geoJson = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution:
@@ -18,7 +18,7 @@ async function init() {
         weight: 5,
         color: '#666',
         dashArray: '',
-        fillOpacity: 0.5
+        fillOpacity: 0.8
     });
     info.update(layer.feature.properties);
     layer.bringToFront();
@@ -51,8 +51,12 @@ async function init() {
 
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
-    this._div.innerHTML = '<h4>Nome do Município</h4>' +  (props ?
-        `<b id="${props.name}"> ${props.name} </b><br />`: 'Deslize para ver');
+  this._div.innerHTML = 
+      '<h4>Nome do Município</h4>' +  
+      (props ?  
+          `<b id="${props.name}"> ${props.name} </b><br />` +`</b><br />`+
+          `<img src="${props.imageUrl}"  alt="${props.name}" height="48" width="64"s /><br />`
+          : 'Deslize para ver');
 };
 
 info.addTo(map);
@@ -80,103 +84,6 @@ function style(feature) {
       opacity: 1,
       color: 'white',
       dashArray: '3',
-      fillOpacity: 0.5
+      fillOpacity: 0.7
   };
 }
-
-const markers = [
-  {
-    city: "CanindeDeSaoFrancisco",
-    lat: -9.703975588848479,
-    long: -37.920994794358734,
-  },
-  {
-    city: "PocoRedondo",
-    lat: -9.8214,
-    long: -37.7078,
-  },
-  {
-    city: "PortoDaFolha",
-    lat: -9.9069,
-    long: -37.4204,
-  },
-  {
-    city: "Gararu",
-    lat: -10.0065,
-    long: -37.2106,
-  },
-  {
-    city: "NossaSenhoraDeLourdes",
-    lat: -10.0760,
-    long: -37.0081,
-  },
-  {
-    city: "Canhoba",
-    lat: -10.1400,
-    long: -36.9826,
-  },
-  {
-    city: "AmparoDoSaoFrancisco",
-    lat:-10.1614,
-    long:-36.9175,
-  },
-  {
-    city: "Telha",
-    lat: -10.1916,
-    long: -36.8831,
-  },
-  {
-    city: "Propria",
-    lat: -10.2415,
-    long: -36.8125,
-  },
-  {
-    city: "SantanaDoSaoFrancisco",
-    lat: 	-10.2860,
-    long: -36.6318,
-  },
-  {
-    city: "Neopolis",
-    lat: -10.3571,
-    long: -36.6518,
-  },
-  {
-    city: "ilhaDasFlores",
-    lat: -10.4568,
-    long: -36.5575,
-  },
-  {
-    city: "BrejoGrande",
-    lat: -10.4743,
-    long: -36.4649,
-  },
-];
-
-function addAllMarkers() {
-  markers.forEach((marker) => {
-    addMarker(marker.city, marker.lat, marker.long);
-  });
-}
-
-//metodo que adiciona ícone de vara de pesca
-var varaIcon = L.Icon({
-  iconUrl: "my-icon.png",
-  shadowUrl: "my-icon-shadow.png",
-
-  iconSize:     [30, 30], // size of the icon
-  shadowSize:   [20, 20], // size of the shadow
-  iconAnchor:   [22, 20], // point of the icon which will correspond to marker's location
-  shadowAnchor: [4, 20],  // the same for the shadow
-  popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
-});
-
-// metodo que adiciona os markers ao mapa( com a funcionalidade da URL)
-function addMarker(name, lat, long) {
-  L.marker([lat, long])
-    .addTo(map)
-    .on("click", function () {
-      window.location.href = "/projetoPesca/municipios/" + name + ".html";
-    });
-}
-addAllMarkers();
-init();
