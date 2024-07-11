@@ -55,7 +55,7 @@ info.update = function (props) {
       '<h4>Nome do Município</h4>' +  
       (props ?  
           `<b id="${props.name}"> ${props.name} </b><br />` +`</b><br />`+
-          `<img src="${props.imageUrl}"  alt="${props.name}" height="48" width="64"s /><br />`
+          `<img src="${props.imageUrl}"  alt="bandeira de ${props.name}" height="48" width="64"s /><br />`
           : 'Deslize para ver');
 };
 
