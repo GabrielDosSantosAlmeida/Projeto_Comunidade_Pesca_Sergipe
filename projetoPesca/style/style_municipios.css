@@ -1,15 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    
-    }
-    
-a {
+ul a {
     color: #0D3D2B;
     text-decoration: none;
 }
     
-a:hover {
+ul a:hover {
     opacity: 0.7;
 }
     
@@ -17,17 +11,22 @@ a:hover {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: #0D3D2B;
+    text-decoration: none;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
 }
+
 .logo-image{
     height: 40px;
     width: 40px;
 }
 body{
+    margin: 0;
+    padding: 0;
     background: url("/projetoPesca/style/images/BackGround.png") repeat center center/cover;  
 }
 main{
@@ -39,6 +38,8 @@ main{
 }
 
 nav {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-around; /** espaço ao redor é metade do espaço entre eles **/
     align-items: center;
@@ -236,4 +237,30 @@ input{display: none;}
     transform: translate(-50%, -50%);
     margin:32px;
     z-index: 0;
+}
+
+.tituloPrincipalGararu{
+    color: #08281c;
+    font-size: 200px;
+    position:static;
+    align-content: center;
+}
+
+.containerTiTuloPrincipal{
+    height: 40%;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+}
+.containerCitacao{
+    padding-top: 50px;
+    padding-left: 350px;
+    word-break:break-all;
+    display:inline-block;
+    align-content: center;
+    /*padding-bottom: 50px;*/
+}
+.citacaoTituloPrincipal{
+    color: #08281c;
+    font-size:x-large;
 }
