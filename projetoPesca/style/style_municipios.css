@@ -310,8 +310,8 @@ nav {
     background-color:#08281c
 }
 .containerApresentacao{
+    justify-content: center;
     display: flex;
-    padding-left: 30vh;
     padding-top: 10vh;
 }
 .containerApresentacaoTexto{
@@ -327,18 +327,33 @@ nav {
 }
 .textoApresentacao{
     padding-top: 10px;
-    word-break:break-all;
+    word-break:keep-all;
     display:inline-block;
     align-content: center;
     font-size: large;
 }
 .containerInfo{
-    display: flex;
-    padding: 50px;
+    padding-top: 10vh;
+    justify-content: center;
+    align-content: center;
+    display:flex;
 }
 .containerInfoMenor{
-    display: block;
+    justify-content: center;
+    align-content: center;
+    margin:30px;
+    display: grid;
     height: 60vh;
     width: 25vw;
     background-color: #DCEDD1;
+}
+.TituloHistorico{
+    color: black;
+    font-size:xx-large;
+}
+.TextoHistorico{
+    word-break:break-all;
+    align-content: center;
+    width: 15vw;
+    height: 20vh;
 }
