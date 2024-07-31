@@ -305,7 +305,30 @@ nav {
   to {opacity: 1}
 }
 .TotalSlide{
-    border-top: 35px solid;
+    border-top: 50px solid;
     border-color: #08281c;
     background-color:#08281c
+}
+.containerApresentacao{
+    display: flex;
+    padding-left: 60vh;
+    padding-top: 10vh;
+}
+.containerApresentacaoTexto{
+    padding: 40px;
+    width: 500px;
+    display: block;
+}
+.tituloApresentacao{
+    color: #08281c;
+    font-size: 60px;
+    position:static;
+    align-content: center;
+}
+.textoApresentacao{
+    padding-top: 10px;
+    word-break:break-all;
+    display:inline-block;
+    align-content: center;
+    font-size: large;
 }
