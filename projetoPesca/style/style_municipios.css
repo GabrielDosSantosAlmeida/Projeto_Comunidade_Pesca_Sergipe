@@ -311,7 +311,7 @@ nav {
 }
 .containerApresentacao{
     display: flex;
-    padding-left: 60vh;
+    padding-left: 30vh;
     padding-top: 10vh;
 }
 .containerApresentacaoTexto{
@@ -331,4 +331,14 @@ nav {
     display:inline-block;
     align-content: center;
     font-size: large;
+}
+.containerInfo{
+    display: flex;
+    padding: 50px;
+}
+.containerInfoMenor{
+    display: block;
+    height: 60vh;
+    width: 25vw;
+    background-color: #DCEDD1;
 }
