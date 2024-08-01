@@ -74,8 +74,8 @@ async function init() {
     this._div.innerHTML =
       "<h4>Nome do Município</h4>" +
       (props
-        ? `<b id="${props.name}" style="font-size: large;">${props.name}</b><br />` +
-          `<img src="${props.imageUrl}" alt="bandeira de ${props.name}" height="100" width="128"/><br />`
+        ? `<b id="${props.name}" style="font-size: xx-large;">${props.name}</b><br />` +
+          `<img src="${props.imageUrl}" alt="bandeira de ${props.name}" height="200" width="258"/><br />`
         : "Deslize para ver");
   };
 
@@ -111,7 +111,7 @@ function getColor(id) {
     : id == 21
     ? "#D63E4D"
     : id == 22
-    ? "#544BCC"
+    ? "#D63E4D"
     : "#5C6B59";
 }
 

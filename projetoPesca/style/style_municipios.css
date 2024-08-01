@@ -191,7 +191,7 @@ nav {
 }
 
 .tituloPrincipalGararu{
-    padding-left: 50px;
+    margin-left: 10%;
     color: #08281c;
     font-size: 200px;
     position:static;
@@ -199,18 +199,16 @@ nav {
 }
 
 .containerTiTuloPrincipal{
-    height: 40%;
     width: 100%;
     z-index: 3;
     display: flex;
+    flex-direction: row;
 }
 .containerCitacao{
-    padding-top: 50px;
-    padding-left: 80vh;
+    margin-left:30%;
     word-break:break-all;
     display:inline-block;
     align-content: center;
-    /*padding-bottom: 50px;*/
 }
 .citacaoTituloPrincipal{
     color: #08281c;
@@ -260,13 +258,13 @@ nav {
 /* Caption text */
 .text {
     background-color: rgba(0, 0, 0, 0.411);
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 /* Number text (1/3 etc) */
@@ -339,21 +337,98 @@ nav {
     display:flex;
 }
 .containerInfoMenor{
+    border: #08281c solid;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     margin:30px;
-    display: grid;
+    display: flex;
     height: 60vh;
     width: 25vw;
     background-color: #DCEDD1;
+    padding: 16px;
 }
 .TituloHistorico{
+    align-self: center;
+    margin-bottom: 15px;
     color: black;
     font-size:xx-large;
 }
 .TextoHistorico{
-    word-break:break-all;
+    border: #08281c solid;
+    padding: 20px;
+    font-size: large;
+    margin-top: 10px;
+    word-break:keep-all;
+    display:inline-block;
     align-content: center;
-    width: 15vw;
-    height: 20vh;
+}
+
+.containerInfoMenor button{
+    padding: 20px;
+    margin-top: 15px;
+    background-color:#08281c;
+    background-size:cover;
+    justify-content: center;
+    font-size:large;
+    color: white;
+    justify-self: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.containerInfoMenor button:hover{
+    cursor: pointer;
+    padding: 20px;
+    background-color:#717171;
+    background-size:cover;
+    justify-content: center;
+    font-size:large;
+    color: black;
+    justify-self: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.containerBotao{
+    justify-content: center;
+    display: flex;
+    margin-top:10px;
+}
+.containerBotao2{
+    display: flex;
+    margin-top:50px;
+}
+.botaoApresentacao{
+    cursor: pointer;
+    padding: 20px;
+    background-color:#08281c;
+    background-size:cover;
+    justify-content: center;
+    font-size:large;
+    color: white;
+    justify-self: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.botaoApresentacao:hover {
+    cursor: pointer;
+    padding: 20px;
+    background-color:#08281c63;
+    background-size:cover;
+    justify-content: center;
+    font-size:large;
+    color: black;
+    justify-self: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ContainerSetasNum{
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.imagemSeta{
+    width: 50px;
+}
+.blocoNumero{
+    padding: 8px;
+    font-size: 40px;
 }
