@@ -218,7 +218,7 @@ nav {
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow-image-container {
     max-width: 1000px;
     position: relative;
     margin: auto;

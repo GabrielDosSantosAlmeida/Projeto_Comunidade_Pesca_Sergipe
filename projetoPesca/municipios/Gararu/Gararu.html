@@ -70,7 +70,7 @@
     </div>
     <div class="TotalSlide">
       <!-- Slideshow container -->
-      <div class="slideshow-container">
+      <div class="slideshow-image-container">
 
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
@@ -122,7 +122,7 @@
       </div>
     </div>
     <div class="containerInfo">
-      <div class="row d-flex justify-content-around">
+      <!-- <div class="row d-flex justify-content-around">
         <div class="col-sm-3">
           <div class="card border-dark mb-3">
             <div class="card-header">Um breve olhar Histórico</div>
@@ -159,8 +159,8 @@
               <div class="line1"></div>
               <div class="line2"></div>
               <div class="line3"></div>
-            </div>
-              <!-- <div class="containerInfoMenor">
+            </div> -->
+              <div class="containerInfoMenor">
           <a class="TituloHistorico">Um breve olhar Histórico</a>
           <a class="TextoHistorico">Esse texto descreve o histórico de Gararu, abordando diversas fases e aspectos do município. Ele começa com a origem do nome "Curral de Pedras" e fornece dados demográficos atuais. Em seguida, detalha os vestígios pré-históricos, a presença indígena e as fases de colonização europeia, incluindo a influência dos jesuítas e a transformação do povoado ao longo dos séculos. Por fim, o texto explora a economia local baseada na agricultura, pecuária e pesca, além de destacar o turismo ecológico e cultural, com as principais atrações e eventos da cidade.</a>
           <div class = "containerBotao">
@@ -169,11 +169,11 @@
         </div>
         <div class="containerInfoMenor">
           <a class="TituloHistorico">Relatos de pescadores</a>
-          <a class="TextoHistorico">“ O rio, acabou aquelas crôa, aquelas areiona que tinha, muita sujeira, o pessoal joga. Pronto, às vezes eu vou no rio bem cedo, porque eu gosto de lavar roupa, eu tenho um tanquinho, mas eu gosto de lavar mais no rio. Eu saio 5 horas, a gente cata, junta, eu tenho um amigo que pesca mais pra cá, a gente deixa no lixo, eu levo até um saco e trago. ”</a>
+          <a class="TextoHistorico" id="relatoPescador"></a>
           <div class="ContainerSetasNum">
-            <img src="/projetoPesca/style/images/seta-esquerda.png" class="imagemSeta">
-            <a class="blocoNumero">1/11</a>
-            <img src="/projetoPesca/style/images/seta-direita.png" class="imagemSeta">
+            <a onclick="prevText()"><img src="/projetoPesca/style/images/seta-esquerda.png" class="imagemSeta"></a>
+            <a class="blocoNumero" id="relatoPescadorContagem"></a>
+            <a onclick="nextText()"><img src="/projetoPesca/style/images/seta-direita.png" class="imagemSeta"></a>
           </div>
         </div>
         <div class="containerInfoMenor">
@@ -182,7 +182,7 @@
           <div class = "containerBotao">
             <a href="/projetoPesca/municipios/Gararu/HistoricoGararu.html"><button>Leia o texto completo</button></a>
           </div>
-        </div> -->
+        </div>
           </div>
           <div class="containerMaior">
 
