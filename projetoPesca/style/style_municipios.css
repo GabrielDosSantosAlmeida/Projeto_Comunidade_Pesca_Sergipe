@@ -27,6 +27,7 @@ ul a:hover {
 body{
     margin: 0;
     padding: 0;
+    font-family: "Lora", serif;
     background: url("/projetoPesca/style/images/BackGround.png") repeat center center/cover;  
 }
 main{
