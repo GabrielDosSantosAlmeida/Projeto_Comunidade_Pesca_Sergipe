@@ -6,7 +6,9 @@ var relatoPescadorContagem;
 
 const texts = [
     "O rio, acabou aquelas crôa, aquelas areiona que tinha, muita sujeira, o pessoal joga. Pronto, às vezes eu vou no rio bem cedo, porque eu gosto de lavar roupa, eu tenho um tanquinho, mas eu gosto de lavar mais no rio. Eu saio 5 horas, a gente cata, junta, eu tenho um amigo que pesca mais pra cá, a gente deixa no lixo, eu levo até um saco e trago.",
-    "Frase 2"
+    "Frase 2",
+    "frase 3",
+    "frase 4"
 ]
 
 async function init() {
