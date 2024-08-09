@@ -111,7 +111,7 @@ function getColor(id) {
     : id == 21
     ? "#D63E4D"
     : id == 22
-    ? "#D63E4D"
+    ? "#FF914D"
     : "#5C6B59";
 }
 
