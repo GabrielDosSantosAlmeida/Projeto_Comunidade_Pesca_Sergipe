@@ -9,59 +9,66 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo-container" > 
-                <img src="/projetoPesca/style/images/pescador.png" alt= "pescador" class="logo-image">
-                <a class= "logo" href="/projetoPesca/index.html">Projeto Pescadores</a>
-            </div>
-            
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-            <ul class="nav-list">
-                <li><a href="/projetoPesca/index.html">Início</a></li>
-                <li class="dropdown">
-                    <a href="#" class="open-dropdown">Municípios</a>
-                    <div class="dropdown-menu">
-                        <a href="/projetoPesca/municipios/CanideDeSaoFrancisco/CanindeDeSaoFrancisco.html" class="dropdown-text">Canindé de São Francisco</a>
-                        <a href="/projetoPesca/municipios/PocoRedondo/PocoRedondo.html"class="dropdown-text">Poço Redondo</a>
-                        <a href="/projetoPesca/municipios/PortoDaFolha/PortoDaFolha.html"class="dropdown-text">Porto da Folha</a>
-                        <a href="/projetoPesca/municipios/Gararu/Gararu.html"class="dropdown-text">Gararu</a>
-                        <a href="/projetoPesca/municipios/NossaSenhoraDeLoudes/NossaSenhoraDeLourdes.html"class="dropdown-text">Nossa Senhora de Lourdes</a>
-                        <a href="/projetoPesca/municipios/Canhoba/Canhoba.html"class="dropdown-text">Canhoba</a>
-                        <a href="/projetoPesca/municipios/Telha/Telha.html"class="dropdown-text">Telha</a>
-                        <a href="/projetoPesca/municipios/Propria/Propria.html"class="dropdown-text">Propriá</a>
-                        <a href="/projetoPesca/municipios/SantanaDoSaoFrancisco/SantanaDoSaoFrancisco.html"class="dropdown-text">Santana de São Francisco</a>
-                        <a href="/projetoPesca/municipios/Neopolis/Neopolis.html"class="dropdown-text">Neópolis</a>
-                        <a href="/projetoPesca/municipios/IlhaDasFlores/IlhaDasFlores.html"class="dropdown-text">Ilha das flores</a>
-                        <a href="/projetoPesca/municipios/BrejoGrande/BrejoGrande.html"class="dropdown-text">Brejo Grande</a>
-                        <a href="/projetoPesca/municipios/AmparoDoSaoFrancisco/AmparoDoSaoFrancisco.html"class="dropdown-text">Amparo do São Francisco</a>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #9EBD98;">
+            <a class="navbar-brand d-flex align-items-center" href="/projetoPesca/index.html">
+                <img src="/projetoPesca/style/images/pescador.png" width="30" height="30" alt="pescador" class="ml-1">
+                <span class="ml-2s" style="letter-spacing: 3px; font-size: 1em;">PROJETO PESCADORES</span>
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarToggleExternalContent">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/projetoPesca/index.html">Início</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Municípios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="/projetoPesca/municipios/CanindeDeSaoFrancisco/CanindeDeSaoFrancisco.html">Canindé de São Francisco</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/PocoRedondo/PocoRedondo.html">Poço Redondo</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/PortoDaFolha/PortoDaFolha.html">Porto da Folha</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/Gararu/Gararu.html">Gararu</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/NossaSenhoraDeLoudes/NossaSenhoraDeLourdes.html">Nossa Senhora de Lourdes</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/Canhoba/Canhoba.html">Canhoba</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/Telha/Telha.html">Telha</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/Propria/Propria.html">Propriá</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/SantanaDoSaoFrancisco/SantanaDoSaoFrancisco.html">Santana de São Francisco</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/Neopolis/Neopolis.html">Neópolis</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/IlhaDasFlores/IlhaDasFlores.html">Ilha das Flores</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/BrejoGrande/BrejoGrande.html">Brejo Grande</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/AmparoDoSaoFrancisco/AmparoDoSaoFrancisco.html">Amparo do São Francisco</a>
                     </div>
                 </li>
-                <li><a href="/projetoPesca/Sobrenos/SobreNos.html">Sobre o Projeto</a></li>
-                <li><a href="/projetoPesca/Contato.html">Contato</a></li>
-            </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="/projetoPesca/Sobrenos/SobreNos.html">Sobre o Projeto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/projetoPesca/Contato/">Contatos</a>
+                </li>
+              </ul>
+            </div>
         </nav>
     </header>
+
     <main> 
         <div id="map"></div>
-        <div class="text-with-icon">
-            <img src="leaflet/images/lampada-brilhante.png" class="icon-left">
-            <p>Para descobrir mais informações sobre o município em questão e suas comunidades de pescadores, clique no município correspondente no mapa.</p>
-        </div>
     </main>
+
     <script src="mobile-navbar.js"></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
-     <script src="/projetoPesca/Mapa/map-bar.js">
-     </script>
+     <script src="/projetoPesca/Mapa/map-bar.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
      <script src="dropDown.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
