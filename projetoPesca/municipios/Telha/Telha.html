@@ -5,53 +5,165 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comunidades de Pesca</title>
-    <link rel="stylesheet" href="/projetoPesca/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/projetoPesca/style/style.css"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""/>
+    
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo-container" > 
-                <img src="/projetoPesca/style/images/pescador.png" alt= "pescador" class="logo-image">
-                <a class= "logo" href="/projetoPesca/index.html">Projeto Pescadores</a>
-            </div>
-            
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-            <ul class="nav-list">
-                <li><a href="/projetoPesca/index.html">Início</a></li>
-                <li class="dropdown">
-                    <a href="#" class="open-dropdown">Municípios</a>
-                    <div class="dropdown-menu">
-                        <a href="/projetoPesca/municipios/CanideDeSaoFrancisco/CanindeDeSaoFrancisco.html" class="dropdown-text">Canindé de São Francisco</a>
-                        <a href="/projetoPesca/municipios/PocoRedondo/PocoRedondo.html"class="dropdown-text">Poço Redondo</a>
-                        <a href="/projetoPesca/municipios/PortoDaFolha/PortoDaFolha.html"class="dropdown-text">Porto da Folha</a>
-                        <a href="/projetoPesca/municipios/Gararu/Gararu.html"class="dropdown-text">Gararu</a>
-                        <a href="/projetoPesca/municipios/NossaSenhoraDeLoudes/NossaSenhoraDeLourdes.html"class="dropdown-text">Nossa Senhora de Lourdes</a>
-                        <a href="/projetoPesca/municipios/Canhoba/Canhoba.html"class="dropdown-text">Canhoba</a>
-                        <a href="/projetoPesca/municipios/Telha/Telha.html"class="dropdown-text">Telha</a>
-                        <a href="/projetoPesca/municipios/Propria/Propria.html"class="dropdown-text">Propriá</a>
-                        <a href="/projetoPesca/municipios/SantanaDoSaoFrancisco/SantanaDoSaoFrancisco.html"class="dropdown-text">Santana de São Francisco</a>
-                        <a href="/projetoPesca/municipios/Neopolis/Neopolis.html"class="dropdown-text">Neópolis</a>
-                        <a href="/projetoPesca/municipios/IlhaDasFlores/IlhaDasFlores.html"class="dropdown-text">Ilha das flores</a>
-                        <a href="/projetoPesca/municipios/BrejoGrande/BrejoGrande.html"class="dropdown-text">Brejo Grande</a>
-                        <a href="/projetoPesca/municipios/AmparoDoSaoFrancisco/AmparoDoSaoFrancisco.html"class="dropdown-text">Amparo do São Francisco</a>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #9EBD98;">
+            <a class="navbar-brand d-flex align-items-center" href="/projetoPesca/index.html">
+                <img src="/projetoPesca/style/images/pescador.png" width="30" height="30" alt="pescador" class="ml-1">
+                <span class="ml-2s custom-navBar-icon" >PROJETO PESCADORES</span>
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarToggleExternalContent">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/projetoPesca/index.html">Início</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Municípios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style ="background-color:#08281c ;">
+                      <a class="dropdown-item" href="/projetoPesca/municipios/CanindeDeSaoFrancisco/CanindeDeSaoFrancisco.html">Canindé de São Francisco</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/PocoRedondo/PocoRedondo.html">Poço Redondo</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/PortoDaFolha/PortoDaFolha.html">Porto da Folha</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/Gararu/Gararu.html">Gararu</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/NossaSenhoraDeLoudes/NossaSenhoraDeLourdes.html">Nossa Senhora de Lourdes</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/Canhoba/Canhoba.html">Canhoba</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/Telha/Telha.html">Telha</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/Propria/Propria.html">Propriá</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/SantanaDoSaoFrancisco/SantanaDoSaoFrancisco.html">Santana de São Francisco</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/Neopolis/Neopolis.html">Neópolis</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/IlhaDasFlores/IlhaDasFlores.html">Ilha das Flores</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/BrejoGrande/BrejoGrande.html">Brejo Grande</a>
+                      <a class="dropdown-item" href="/projetoPesca/municipios/AmparoDoSaoFrancisco/AmparoDoSaoFrancisco.html">Amparo do São Francisco</a>
                     </div>
                 </li>
-                <li><a href="/projetoPesca/Sobrenos/SobreNos.html">Sobre o Projeto</a></li>
-                <li><a href="/projetoPesca/Contato.html">Contato</a></li>
-            </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="/projetoPesca/Sobrenos/SobreNos.html">Sobre o Projeto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/projetoPesca/Contato/">Contatos</a>
+                </li>
+              </ul>
+            </div>
         </nav>
     </header>
     <main>
+        <div class="titulo-municipio">Telha</div>
+        <div class="carousel-container">
+          <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="/projetoPesca/style/styleMunicipios/GararuImages/gararu.jpeg" alt="Pôr do sol no Rio São Francisco">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Pôr do sol no Rio São Francisco - Gararu (SE) 2024</h5>
+                  <p>Autor: Paulo Heimar Souto</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/projetoPesca/style/styleMunicipios/GararuImages/PescadoresGararu.jpeg" alt="Pescadores consertando rede">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Pescadores consertando rede - Gararu (SE) 2024</h5>
+                  <p>Autor: Paulo Heimar Souto</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+        </div>
+        <div class="container mt-5">
+          <div class="card" style="margin-top: 6rem; margin-bottom: 5rem;">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="/projetoPesca/style/styleMunicipios/GararuImages/gararu3.jpg" class="img-fluid card-img" alt="Gararu Imagem">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <a class="tituloApresentacao">Primeiras Impressões</a>
+                  <p class="textoApresentacao">
+                    O município de Gararu, localizado no alto sertão sergipano a 151 km da capital, é um paraíso a céu aberto. A cidade, geralmente de clima seco, nos recebeu com chuva e extensas plantações de milho. 
+                    A vegetação, marcada por montes e o Rio São Francisco, contrasta com a pequena área urbana repleta de praças e uma orla ao longo do rio.
+                  </p>
+                  <p class="textoApresentacao">
+                    O turismo é um ponto forte, com investimentos em restaurantes, chácaras e pousadas, embora haja problemas ambientais como o esgoto escorrendo para o rio e construções próximas às margens sem respeitar a mata ciliar. 
+                    A Associação de Pescadores se destaca pela organização e espaço.
+                  </p>
+                  <p class="textoApresentacao">
+                    No Povoado Lagoa Primeira, a comunidade é acolhedora e simples. Durante a tarde, o povoado fica tranquilo, pois as crianças estão estudando em Gararu e os pescadores estão no rio. A pesca é a principal atividade econômica e, 
+                    apesar dos desafios, os pescadores têm orgulho de seu trabalho e desejam vida longa ao Rio São Francisco.
+                  </p>
+                  <a href="#" class="btn btn-custom">Leia os textos completos</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck" style="padding: 20px; background-color: #08281c;">
+          <div class="card text-center" style="margin: 10px;">
+            <img class="card-img-top" src="/projetoPesca/style/images/historia (1).png" alt="Ícone do card 1">
+            <div class="card-body">
+              <h3 class="card-title">Um breve olhar Histórico e Geográfico</h3>
+              <p class="card-text">Amparo de São Francisco, situado na mesorregião do Baixo São Francisco, em Sergipe, tem uma área de 35,683 km² e está localizado a 115 km de Aracaju, com uma altitude de 51 metros. Em 2022, sua população era de 2.170 habitantes, com uma densidade demográfica de 60,81 hab/km². O município, banhado pelo rio São Francisco, possui uma economia voltada principalmente para a agricultura e a pesca artesanal, atividades que sustentam grande parte de sua população.
+                </p>
+              <p class="card-text">
+                  Em 1947, Amparo foi elevada à categoria de cidade, sendo criada a sede municipal, com o nome de Amparo do São Francisco, desmembrando-se de Propriá. A cidade também é palco de manifestações religiosas importantes, com destaque para a tradicional festa de Nossa Senhora do Amparo, padroeira da cidade, celebrada anualmente com grande devoção popular.
+                </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-custom">Leia o Texto completo</a>
+            </div>
+          </div>
+          <div class="card text-center" style="margin: 10px;">
+            <img class="card-img-top" src="/projetoPesca/style/images/citar.png" alt="Ícone do card 2">
+            <div class="card-body">
+              <h3 class="card-title">Voz dos pescadores</h3>
+              <p class="card-text">Ao clicar no botão, você encontrará depoimentos dos pescadores e pescadoras de Amparo do São Francisco/SE sobre os principais problemas e as soluções sugeridas para melhorar a pesca e a vida na comunidade. As falas destacam desafios como a falta de recursos, poluição e diminuição dos peixes, além da ausência de apoio governamental e reconhecimento do trabalho.</p>
+              <p class="card-text">Além dos problemas, você verá sugestões de soluções como maior fiscalização, fornecimento de materiais de pesca, incentivo à agricultura e medidas ambientais para revitalizar o rio. Os depoimentos também refletem a necessidade de um olhar mais atento dos governantes para as dificuldades enfrentadas pelos pescadores.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-custom">Leia os depoimentos</a>
+            </div>
+          </div>
+        
+          <div class="card text-center" style="margin: 10px;">
+            <img class="card-img-top" src="/projetoPesca/style/images/grafico.png" alt="Ícone do card 3">
+            <div class="card-body">
+              <h3 class="card-title">Gráficos</h3>
+              <p class="card-text">Ao clicar no botão, você encontrará gráficos que mostram os dados coletados sobre pescadores de Amparo do São Francisco/SE. Foram entrevistados 13 mulheres e 12 homens, com médias de idade de 42 e 46 anos, respectivamente, e com diferentes tempos de experiência na pesca. Alguns têm outras fontes de renda além da pesca.</p>
+              <p>Os gráficos também apresentam os principais problemas enfrentados pelos pescadores e as soluções sugeridas por eles, que envolvem ações governamentais, medidas de apoio financeiro e iniciativas ambientais para melhorar as condições de trabalho e a pesca na região.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-custom">Veja os gráficos</a>
+            </div>
+          </div>
+        </div>
+                      
+                           
     </main>
     <script src="mobile-navbar.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="/projetoPesca/dropDown.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
