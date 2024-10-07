@@ -63,6 +63,29 @@ body{
     align-self: center;
     margin-top: 5%;
 }
+/* Cor preta para os botões do carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Botões pretos */
+    color: white;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 0.7em;
+}
+
+/* Definir tamanho máximo do modal */
+.modal-dialog {
+    max-width: 800px; /* Largura fixa para evitar esticar com o conteúdo */
+    margin: 30px auto;
+}
+
+/* Ajustes no bloco de citação para garantir tamanho uniforme */
+blockquote {
+    min-height: 150px; /* Definir uma altura mínima para as citações */
+}
 
 /** Api mapa **/
 #map {

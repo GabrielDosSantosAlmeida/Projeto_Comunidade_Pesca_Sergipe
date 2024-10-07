@@ -1,0 +1,16 @@
+.top-left-btn {
+    border-color: #9EBD98;
+    color: #9EBD98;
+}
+.top-left-btn:hover {
+    background-color: #9EBD98;
+    border-color: #08281c;
+    color: #08281c;
+}
+@media(min-width: 768px){
+.card-body {
+    padding: 2rem;
+    padding-left: 30em;
+    padding-right: 30em;
+  }    
+}
