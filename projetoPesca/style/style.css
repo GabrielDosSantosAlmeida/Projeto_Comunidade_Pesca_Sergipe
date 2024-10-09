@@ -146,11 +146,14 @@ blockquote {
     }
 }
 @media (min-width: 1024px){
+.card-text{
+        font-size: 0.9rem;
+}
 .titulo-municipio {
     font-size: 5rem;
 }
 .textoApresentacao {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
     
 /*carousel*/
