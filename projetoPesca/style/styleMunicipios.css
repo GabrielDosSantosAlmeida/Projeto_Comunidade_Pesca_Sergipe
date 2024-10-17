@@ -7,6 +7,13 @@
     border-color: #08281c;
     color: #08281c;
 }
+p{
+    color: #08281c;
+}
+.lead{
+    color: #08281c;
+    font-size:x-large;
+}
 @media(min-width: 768px){
 .card-body {
     padding: 2rem;
