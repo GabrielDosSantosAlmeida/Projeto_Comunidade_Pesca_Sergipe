@@ -105,14 +105,16 @@ function getColor(id) {
     : id == 10
     ? "#3A591E"
     : id == 11
+    ? "#5C6B59"
+    : id == 12
     ? "#8D6E4C"
     : id == 20
     ? "#E5B502"
     : id == 21
     ? "#D63E4D"
     : id == 22
-    ? "#FF914D"
-    : "#5C6B59";
+    ? "#D63E4D"
+    : "#D63E4D";
 }
 
 function style(feature) {
