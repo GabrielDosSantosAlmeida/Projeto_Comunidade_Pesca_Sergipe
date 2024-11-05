@@ -47,7 +47,7 @@ async function init() {
     map.fitBounds(e.target.getBounds());
     setTimeout(() => {
       window.location.href =
-        "/pesca/municipios/" +
+        "./pesca/municipios/" +
         e.target.feature.properties.html +
         "/" +
         e.target.feature.properties.html +
