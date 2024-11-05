@@ -9,14 +9,14 @@ document.addEventListener("DOMContentLoaded", init, false);
 
 async function init() {
 
-  mapaEstados = await fetch(`./Mapa/estados.geojson`);
+  mapaEstados = await fetch(`./pesca/Mapa/estados.geojson`);
   mapaEstadosGeoJson = await mapaEstados.json();
 
   estadosColorPath = L.geoJSON(mapaEstadosGeoJson, {
     style: style,
   }).addTo(map);
 
-  mapa = await fetch(`./Mapa/map.geojson`);
+  mapa = await fetch(`./pesca/Mapa/map.geojson`);
   geoJson = await mapa.json();
   mapaColorPath = L.geoJSON(geoJson, {
     style: style,
@@ -47,7 +47,7 @@ async function init() {
     map.fitBounds(e.target.getBounds());
     setTimeout(() => {
       window.location.href =
-        "./municipios/" +
+        "/pesca/municipios/" +
         e.target.feature.properties.html +
         "/" +
         e.target.feature.properties.html +
