@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidades de Pesca</title>
+    <link rel="shortcut icon" type="imagex/png" href="/teste/pesca/style/images/pescador.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/teste/pesca/style/style.css" />
+    <link rel="stylesheet" href="/teste/pesca/style/styleMunicipios.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+</head>
+
+<body>
+    <header>
+        <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #9ebd98"
+      >
+        <a
+          class="navbar-brand d-flex align-items-center"
+          href="/teste/pesca/index.html"
+        >
+          <img
+            src="/teste/pesca/style/images/pescador.png"
+            width="30"
+            height="30"
+            alt="pescador"
+            class="ml-1"
+          />
+          <span class="ml-2s custom-navBar-icon">PROJETO PESCADORES</span>
+        </a>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Alterna navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarToggleExternalContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/teste/pesca/index.html">Início</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Municípios
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdown"
+                style="background-color: #08281c"
+              >
+                <a
+                  class="dropdown-item"
+                  href="/teste/pesca/municipios/BrejoGrande/BrejoGrande.html"
+                  >Brejo Grande</a
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/teste/pesca/index.html"
+                >Sobre o Projeto</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/teste/pesca/index.html">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <a href="/teste/pesca/municipios/BrejoGrande/BrejoGrande.html" class="btn btn-outline-primary top-left-btn" style="position: fixed ;margin: 1em; z-index: 5; ">Voltar para Brejo Grande</a>
+    </header>
+    <main>
+      <div style="position: relative; width: 100%; height: 40vh;">
+        <img src="/teste/pesca/style/styleMunicipios/BrejoGrande/Slider11.jpg" class="img-fluid" alt="Imagem responsiva" style="width: 100%; height: 100%; object-fit: cover;">
+        <div style="position: absolute; bottom: 0; width: 100%; color: white; background-color: rgba(0, 0, 0, 0.342); text-align: center; padding: 10px;">
+          <p style="margin: 0;color: white;"><strong>Cultivo de ostras – Funil/Brejo Grande (SE) 2024<br>Autor: Paulo Heimar Souto</strong></p>
+        </div>
+      </div>
+      <div class="jumbotron">
+          <hr class="my-4">
+          <h2>Um breve olhar Histórico e Geográfico para Brejo Grande (SE)</h2>
+          <p class="lead"><strong>
+              O município de Brejo Grande, situa-se no extremo nordeste da faixa litorânea sergipana, faz parte da mesorregião conhecida como Leste Sergipano, situando-se na microrregião de Propriá. O seu território tem como limite os municípios de Ilha das Flores, Pacatuba, o estado de Alagoas separado pelo rio São Francisco (município de Piaçabuçu) e o Oceano Atlântico;
+          </strong></p>
+          <hr class="my-4" />
+          <p class="lead"><strong>
+              Tendo como referência os dados constantes no portal Cidades do IBGE, Brejo Grande possui uma população de 7.841 habitantes (2022) e um índice de desenvolvimento humano de 0,540 (2010), considerado baixo. O município possui um território com 141,464 quilômetros quadrados e uma densidade demográfica de 55,43 habitantes por quilômetro quadrado.
+          </strong></p>
+          <hr class="my-4" />
+          <div class="d-flex align-items-center">
+            <div style="position: relative; display: inline-block; width: 400%; margin-right: 1rem;">
+              <img src="/teste/pesca/style/styleMunicipios/BrejoGrande/Slider3.jpg" class="img-fluid" alt="Imagem representativa" style="width: 100%; height: auto;">
+              <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 0.5rem; text-align: center;">
+                Vista parcial do Rio São Francisco – Brejo Grande (SE) 2024<br> Autor: Paulo Heimar Souto
+              </div>
+            </div>
+            <p class="lead"><strong>
+                Segundo informações presentes no site da prefeitura, seus primeiros habitantes foram os tupinambás. A chegada dos europeus à região se dá em 1501, quando Américo Vespúcio, em uma missão de reconhecimento do território português na América, chega à foz do Rio São Francisco. Durante o século XVI a região de Brejo Grande era denominada como Ilha da Paraúna e fazia parte da capitania hereditária de Pernambuco. Segundo Carta Régia datada de 24 de outubro de 1534, essas terras foram posteriormente transferidas para a Capitania da Baía de Todos os Santos. Em 1590, a ilha foi incorporada à Vila Nova, que hoje corresponde ao município de Neópolis, mas as disputas entre Bahia e Pernambuco pela posse da região não terminariam com essa decisão. Durante o século XIX ainda ocorreram fatos relacionados ao conflito de limites entre Bahia e Pernambuco e entre Sergipe e Alagoas. Em 1812, uma ação inusitada pôs fim à ilha na qual Brejo Grande estava situado. Com o intuito de resolver o imbróglio fronteiriço, José Alves Tojal aterrou parte do canal do rio São Francisco que separava a ilha da margem sul pertencente à Bahia. Mesmo assim, as discussões sobre a posse das terras perduraram por mais alguns anos, sendo resolvidas apenas em 1873, após a assinatura da Lei nº 2.099 de 1º de fevereiro, que estabeleceu um acordo entre as Províncias de Alagoas e Sergipe, determinando que Paraúna ficaria sob a posse de Sergipe.
+            </strong></p>
+          </div>        
+          <hr class="my-4" />
+          <p class="lead"><strong>
+              Os primeiros núcleos de povoação de Brejo Grande surgiram em 1820, devido à migração de portugueses e grupos de Alagoas, Pernambuco e Ceará, além da influência da família do Barão Bento de Melo Pereira. Localizada na margem direita do Rio São Francisco, a área ficou conhecida como Brejo Grande, devido às constantes inundações de suas várzeas e as grandes lagoas permanentes que se formavam na região. A cidade foi oficialmente reconhecida como município em 1926, passando a se chamar São Francisco, mas essa denominação não foi aceita pela população. Em 1943, o nome foi alterado para Parapitinga, mas também não agradou. Em 1954, a cidade retomou o nome Brejo Grande, refletindo a importância da identidade local sobre imposições externas. A escolha do nome final ressalta o valor cultural e popular, ao contrário dos nomes anteriores, que foram impostos pelos poderes estaduais. Seus cidadãos são denominados brejo-grandenses.
+          </strong></p>
+          <hr class="my-4" />
+          <p class="lead"><strong>
+              A economia brejo-grandense é diversificada e robusta, destacando-se pela carcinicultura (cultivo de camarão), pela rizicultura (produção de arroz) e coco. A pecuária, com criação de bovinos, equinos, ovinos e suínos, e a pesca, com cerca de 1000 pescadores recebendo auxílio específico, são igualmente importantes. A exploração de petróleo, embora menor, também contribui para a economia. A feira semanal, que ocorre no domingo, e o comércio local são também outras atividades importantes do município.
+          </strong></p>
+          <hr class="my-4" />
+          <div class="d-flex align-items-center">
+              <p class="lead">
+                  <strong>
+                      Durante o período colonial, a região figurou como centro de produção de açúcar, com vários engenhos instalados na região. Estes engenhos, fundamentais para a economia e o desenvolvimento local, não existem mais, restando apenas alguns resquícios de suas infraestruturas, como, por exemplo, algumas construções da Fazenda Cajuípe.
+                      <br /> Nos últimos tempos, o turismo vem despontando como importante segmento em Brejo Grande. Os passeios de barco pelas margens do rio São Francisco, os restaurantes e bares, e os passeios à foz permitem aos visitantes explorar a rica biodiversidade e as belas paisagens naturais da cidade. Além disso, Brejo Grande é famosa por sua tradicional festa de São Pedro, de Nossa Senhora do Patrocínio, que ocorre no povoado Brejão, e a festa de Nossa Senhora da Conceição, padroeira da cidade, que atrai diversos visitantes.
+                  </strong>
+              </p>
+              <div style="position: relative; display: inline-block; width: 150%; margin-right: 1rem;">
+                  <img src="/teste/pesca/style/styleMunicipios/BrejoGrande/imagem2historia.jpg" class="img-fluid" alt="Imagem representativa" style="width: 100%; height: auto;">
+                  <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 0.5rem; text-align: center;">
+                    Barqueiro no Rio São Francisco – Brejo Grande/SE (2024).<br> Autor: Paulo Heimar Souto
+                  </div>
+              </div>
+          </div>
+          <p class="lead"><strong>Autor: Wendel Mota dos Reis - Mestrado em Ensino de História da Universidade Federal de Sergipe, Campus Sede.</strong></p> 
+          <hr class="my-4" />
+          <h2>Referências bibliográficas</h2>
+          <p class="lead"><strong><br /></strong></p>
+          <hr class="my-4" />
+          <p class="lead"><strong>
+              AB’SABER, Aziz. O homem dos terraços de Xingó. Revista Canindé, Cadernos de Arqueologia, Doc. 6. UFS, 1997.
+              <br />ALMEIDA, M. G. de; VARGAS, M. A. M. Sertão do baixo São Francisco sergipano: dimensão cultural. Relatório. Programa de Estudos Interdisciplinares. Aracaju: Convênio Codevasf/UFS/Seplantec-SE. 1997, 124 p.
+              <br />CONTROLADORIA-GERAL DA UNIÃO. Seguro Defeso. Portal da Transparência, 2024. Disponível em: https://portaldatransparencia.gov.br/beneficios/seguro-defeso?uf=SE&de=01/01/2023&ate=31/01/2023&tipoBeneficio=4&nomeMunicipio=Gararu&ordenarPor=rgp&direcao=asc. Acesso em: 8 jul. 2024.
+              <br />EMDAGRO. Gararu: história e desenvolvimento. 1. ed. Aracaju: EMDAGRO, 2023. Disponível em: https://emdagro.se.gov.br/wp-content/uploads/2023/02/gararu.pdf. Acesso em: 8 jul. 2024.
+              <br />IBGE, Enciclopédia dos municípios brasileiros. v.36. Rio de Janeiro: IBGE, 1959.
+              <br />FREIRE, Felisbello. História de Sergipe (1575-1855) 3. ed. - São Cristovão: Editora UFS; Aracaju: IHGSE, 2013.
+              <br />Silva, Heberty Ruan da Conceição. Entre manguezais, rios e restingas: soberania alimentar dos povos tradicionais pesqueiros e a carcinicultura no município de Brejo Grande/SE. São Cristóvão, SE, 2020.
+              <br />IBGE, Enciclopédia dos municípios brasileiros. v.36. Rio de Janeiro: IBGE, 1959.
+              <br />INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Gararu: panorama. IBGE, 2024. Disponível em: https://cidades.ibge.gov.br/brasil/se/brejogrande/panorama. Acesso em: 15 jul. 2024.
+              <br />MENDONÇA, Jouberto Uchôa de; Sergipe panorâmico: geográfico, político, histórico, econômico, cultural, turístico e social /organizador [de] Jouberto Uchôa de Mendonça, Maria Lúcia Marques Cruz e Silva - Aracaju/SE: EDUNIT, 2021.
+              <br />PREFEITURA MUNICIPAL DE BREJO GRANDE. História. Prefeitura Municipal de Brejo Grande, 2024. Disponível em: https://brejogrande.se.gov.br/historia-da-cidade/. Acesso em: 15 jul. 2024.
+              <br />SCHUSTER, Adriana; GARCIA, Lorena; ALMEIDA, Fernando. Da pré-história para a história indígena no Baixo São Francisco: arqueologia do período. Revista Habitus - Revista do Instituto Goiano de Pré-História e Antropologia, v. 18, p. 179-206, 2020. DOI: 10.18224/hab.v18n1.7873.
+          </strong></p>
+      </div>
+      <div style="position: relative; width: 100%; height: 50vh;">
+        <img src="/teste/pesca/style/styleMunicipios/BrejoGrande/Slider7.jpg" class="img-fluid" alt="Imagem responsiva" style="width: 100%; height: 100%; object-fit: cover;">
+        <div style="position: absolute; bottom: 0; width: 100%; color: white; background-color: rgba(0, 0, 0, 0.342); text-align: center; padding: 10px;">
+          <p style="margin: 0;color: white;"><strong>Entardecer no rio São Francisco – Brejo Grande/SE (2024).<br>Autor: Paulo Heimar Souto</strong></p>
+        </div>
+      </div>
+  </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</body>
+
+</html>
