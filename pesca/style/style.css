@@ -111,19 +111,22 @@ blockquote {
 }
 
 @media (min-width: 320px){
-
+    .custom-navBar-icon{
+        letter-spacing: 2px; 
+        font-size: 0.3em;
+    }
 }
 @media (min-width: 375px){
     .custom-navBar-icon{
         letter-spacing: 2px; 
-        font-size: 0.9em;
+        font-size: 0.3em;
     }    
 }
 @media (min-width: 425px){
     @media (min-width: 375px){
         .custom-navBar-icon{
             letter-spacing: 3px; 
-            font-size: 1em;
+            font-size: 0.4em;
         }    
     }   
 }
@@ -131,6 +134,10 @@ blockquote {
     .card-deck {
         margin-right: 0px;
         margin-left: 0px;
+    }
+    .custom-navBar-icon{
+        letter-spacing: 2px; 
+        font-size: 0.5em;
     }
 }
 @media (min-width: 768px){
@@ -144,6 +151,10 @@ blockquote {
         max-width: 100%;
         height: 100%;
     }
+    .custom-navBar-icon{
+        letter-spacing: 2px; 
+        font-size: 0.6em;
+    }
 }
 @media (min-width: 1024px){
 .card-text{
@@ -155,6 +166,10 @@ blockquote {
 .textoApresentacao {
     font-size: 0.9rem;
   }
+.custom-navBar-icon{
+    letter-spacing: 2px; 
+    font-size: 0.7em;
+}
     
 /*carousel*/
 .custom-carousel {
