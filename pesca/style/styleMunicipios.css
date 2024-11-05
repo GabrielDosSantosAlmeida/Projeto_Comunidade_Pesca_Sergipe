@@ -1,0 +1,27 @@
+.top-left-btn {
+    border-color: #9EBD98;
+    color: #9EBD98;
+}
+.top-left-btn:hover {
+    background-color: #9EBD98;
+    border-color: #08281c;
+    color: #08281c;
+}
+p{
+    color: #08281c;
+}
+.lead{
+    color: #08281c;
+    font-size:x-large;
+}
+@media(min-width: 768px){
+.card-body {
+    padding: 2rem;
+    padding-left: 30em;
+    padding-right: 30em;
+  }    
+}
+
+.jumbotron {
+    margin-bottom: 0rem;
+}
