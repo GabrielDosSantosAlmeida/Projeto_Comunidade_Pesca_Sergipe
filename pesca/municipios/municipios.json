@@ -1,0 +1,87 @@
+{
+    "municipios": {
+        "BrejoGrande": {
+            "titulo": "Brejo Grande(SE)",
+            "carouselImages": [
+                {
+                    "src": "/pesca/style/styleMunicipios/BrejoGrande/Slider1.jpeg",
+                    "caption": "Vista parcial do Rio São Francisco - Povoado Resina/Brejo Grande (SE) 2024",
+                    "author": "Autor: Paulo Heimar Souto"
+                },
+                {
+                    "src": "/pesca/style/styleMunicipios/BrejoGrande/Slider2.jpeg",
+                    "caption": "Vista parcial do Rio São Francisco - Povoado Resina/Brejo Grande (SE) 2024.",
+                    "author": "Autor: Paulo Heimar Souto"
+                },
+                {
+                    "src": "/pesca/style/styleMunicipios/BrejoGrande/Slider4.jpg",
+                    "caption": "Dia de cavalgada em Brejo Grande/SE (2024).",
+                    "author": "Autor: Paulo Heimar Souto"
+                }
+            ],
+            "primeirasImpressoes": [
+                "Em meados do mês de maio de 2024, nos deslocamos da Universidade Federal de Sergipe, campus São Cristóvão, em direção a Brejo Grande, situado na foz do Rio São Francisco.",
+                "Não obstante de testemunharmos a conexão profunda entre os brejo-grandenses e o majestoso rio, o baixo Índice de Desenvolvimento Humano (IDH), de acordo com dados do IBGE 2010, reflete a falta de investimentos em saneamento básico, infraestrutura social e segurança alimentar adequada.",
+                "Ao chegarmos à Colônia de Pescadores de Brejo Grande, fomos calorosamente recebidos, e observamos que as crianças brincavam no rio, enquanto os pescadores enfrentavam dificuldades para manter sua atividade devido à redução de peixes.",
+                "Enquanto isso, o cotidiano das famílias revela a luta contínua contra a invisibilidade social e a exploração. Apesar da resiliência das pessoas, a ausência de perspectivas coloca em risco o legado de gerações, em um cenário onde a beleza do rio contrasta com a dura sobrevivência."
+            ],
+            "historicoGeografico": {
+                "titulo": "Um breve olhar Histórico e Geográfico",
+                "paragrafos": [
+                    "Brejo Grande está localizado no extremo nordeste da faixa litorânea sergipana, na mesorregião Leste Sergipano e microrregião de Propriá. Limita-se com Ilha das Flores, Pacatuba, o estado de Alagoas, separado pelo rio São Francisco (município de Piaçabuçu), e o Oceano Atlântico. Com uma área de 141,464 km², o município tem uma população de 7.841 habitantes (2022) e uma densidade demográfica de 55,43 habitantes/km². O Índice de Desenvolvimento Humano (IDH) é de 0,540 (2010), considerado baixo.",
+                    "Os primeiros habitantes foram os tupinambás. Em 1501, Américo Vespúcio chegou à foz do Rio São Francisco. No século XVI, a região era chamada Ilha da Paraúna e fazia parte da capitania de Pernambuco, sendo transferida para a Capitania da Baía de Todos os Santos por Carta Régia de 1534. Em 1590, a ilha foi anexada à Vila Nova, atual Neópolis. Em 1812, José Alves Tojal aterrou parte do canal do rio São Francisco para resolver disputas territoriais. Finalmente, a Lei nº 2.099 de 1º de fevereiro de 1873 estabeleceu que Paraúna ficaria sob a posse de Sergipe."
+                ]
+            },
+            "depoimentos": [
+                {
+                    "texto": "“O número de pescadores, naquela época, uns 25 anos atrás, o número de pescadores era bem menor, hoje tem muito pescador, por quê? Porque os municípios não dão a alternativa, ou se trabalha na prefeitura não tem outros empreendimentos, ou vai tirar o sustento do rio, aí eu vejo que não tem como o rio comportar tantos pescadores ao mesmo tempo.” [...] “Eu vejo que tem que incluir educação de pesca nas escolas, falando sobre esses pescadores, que cada vez mais está sumindo.",
+                    "autor": "BG(M7)"
+                },
+                {
+                    "texto": "asdasdasdadasdÉ difícil agora quase tudo, porque agora, está fácil tudo hoje pro rico. Porque de primeira a gente trabalhava, chama roça, né? Hoje tudo é viveiro. É uma coisa e outra. Hoje até para passar um veneno no arroz estão inventando pra passar com avião, que é pra não ter a vez de pobre.",
+                    "autor": "BG(M11)"
+                }
+            ]
+        },
+        "Caninde": {
+            "titulo": "Caninde(SE)",
+            "carouselImages": [
+                {
+                    "src": "/pesca/style/styleMunicipios/BrejoGrande/Slider1.jpeg",
+                    "caption": "Vista parcial do Rio São Francisco - Povoado Resina/Brejo Grande (SE) 2024",
+                    "author": "Autor: Paulo Heimar Souto"
+                },
+                {
+                    "src": "/pesca/style/styleMunicipios/BrejoGrande/Slider2.jpeg",
+                    "caption": "Vista parcial do Rio São Francisco - Povoado Resina/Brejo Grande (SE) 2024.",
+                    "author": "Autor: Paulo Heimar Souto"
+                },
+                {
+                    "src": "/pesca/style/styleMunicipios/BrejoGrande/Slider4.jpg",
+                    "caption": "Dia de cavalgada em Brejo Grande/SE (2024).",
+                    "author": "Autor: Paulo Heimar Souto"
+                }
+            ],
+            "primeirasImpressoes": [
+                "Em meados do mês de maio de 2024, nos deslocamos da Universidade Federal de Sergipe, campus São Cristóvão, em direção a Brejo Grande, situado na foz do Rio São Francisco.",
+                "Não obstante de testemunharmos a conexão profunda entre os brejo-grandenses e o majestoso rio, o baixo Índice de Desenvolvimento Humano (IDH), de acordo com dados do IBGE 2010, reflete a falta de investimentos em saneamento básico, infraestrutura social e segurança alimentar adequada.",
+                "Ao chegarmos à Colônia de Pescadores de Brejo Grande, fomos calorosamente recebidos, e observamos que as crianças brincavam no rio, enquanto os pescadores enfrentavam dificuldades para manter sua atividade devido à redução de peixes.",
+                "Enquanto isso, o cotidiano das famílias revela a luta contínua contra a invisibilidade social e a exploração. Apesar da resiliência das pessoas, a ausência de perspectivas coloca em risco o legado de gerações, em um cenário onde a beleza do rio contrasta com a dura sobrevivência."
+            ],
+            "historiaGeografia": {
+                "descricao": "Brejo Grande está localizado no extremo nordeste da faixa litorânea sergipana, na mesorregião Leste Sergipano...",
+                "linkTextoCompleto": "/pesca/municipios/BrejoGrande/historiaGeografiaBrejoGrande.html"
+            },
+            "depoimentos": [
+                {
+                    "texto": "“O número de pescadores, naquela época, uns 25 anos atrás, o número de pescadores era bem menor, hoje tem muito pescador, por quê? Porque os municípios não dão a alternativa, ou se trabalha na prefeitura não tem outros empreendimentos, ou vai tirar o sustento do rio, aí eu vejo que não tem como o rio comportar tantos pescadores ao mesmo tempo.” [...] “Eu vejo que tem que incluir educação de pesca nas escolas, falando sobre esses pescadores, que cada vez mais está sumindo.",
+                    "autor": "BG(M7)"
+                },
+                {
+                    "texto": "asdasdasdadasdÉ difícil agora quase tudo, porque agora, está fácil tudo hoje pro rico. Porque de primeira a gente trabalhava, chama roça, né? Hoje tudo é viveiro. É uma coisa e outra. Hoje até para passar um veneno no arroz estão inventando pra passar com avião, que é pra não ter a vez de pobre.",
+                    "autor": "BG(M11)"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comunidades de Pesca (SE)</title>
+    <link rel="shortcut icon" type="imagex/png" href="/pesca/style/style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/pesca/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #9ebd98"
+      >
+        <a
+          class="navbar-brand d-flex align-items-center"
+          href="/index.html"
+        >
+          <img
+            src="/pesca/style/images/pescador.png"
+            width="30"
+            height="30"
+            alt="pescador"
+            class="ml-1"
+          />
+          <span class="ml-2s custom-navBar-icon">PESQUISA: OLHARES DE PESCADORES NO BAIXO SÃO FRANCISCO SERGIPANO</span>
+        </a>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Alterna navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarToggleExternalContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index.html">Início</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Municípios
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdown"
+                style="background-color: #08281c"
+              >
+                <a
+                  class="dropdown-item"
+                  href="/pesca/municipios/BrejoGrande/BrejoGrande.html"
+                  >Brejo Grande</a
+                >
+                
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html"
+                >Sobre o Projeto</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="titulo-municipio">Brejo Grande(SE)</div>
+      <div class="carousel-container">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide custom-carousel"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <!-- Conteúdo Dinâmico -->
+          </ol>
+          <div class="carousel-inner">
+            <!-- Conteúdo dinâmico -->
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="card" style="margin-top: 6rem; margin-bottom: 5rem">
+          <div class="row g-0">
+            <div class="col-md-6" style="position: relative;">
+              <img
+                src="/pesca/style/styleMunicipios/BrejoGrande/Slider6.jpg"
+                class="img-fluid card-img"
+                alt="Gararu Imagem"
+              />
+              <div style="position: absolute; bottom: 1rem; left: 1rem; right: 1rem;color: whi; color: white; background-color:rgba(0, 0, 0, 0.326); padding: 0.5rem; border-radius: 0.25rem;">
+                <p class="text-center m-0">
+                  Pôr do sol no Rio São Francisco – Brejo Grande/SE (2024).<br>
+                  Autor: Paulo Heimar Souto
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <a class="tituloApresentacao">Primeiras Impressões</a>
+                <div class="bodyApresentacao">
+
+                </div>
+                <!-- Conteúdo dinâmico -->
+                <a href="/pesca/municipios/BrejoGrande/apresentacaoBrejoGrande.html" class="btn btn-custom">Leia os textos completos</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>      
+      <div class="card-deck" style="padding: 20px; background-color: #08281c">
+        <div class="card text-center" style="margin: 10px">
+          <img
+            class="card-img-top"
+            src="/pesca/style/images/historia (1).png"
+            alt="Ícone do card 1"
+          />
+          <div class="card-body bodyHistoria">
+            <h3 class="card-title">Um breve olhar Histórico e Geográfico</h3>
+            <p class="card-text">
+              Brejo Grande está localizado no extremo nordeste da faixa
+              litorânea sergipana, na mesorregião Leste Sergipano e microrregião
+              de Propriá. Limita-se com Ilha das Flores, Pacatuba, o estado de
+              Alagoas, separado pelo rio São Francisco (município de Piaçabuçu),
+              e o Oceano Atlântico. Com uma área de 141,464 km², o município tem
+              uma população de 7.841 habitantes (2022) e uma densidade
+              demográfica de 55,43 habitantes/km². O Índice de Desenvolvimento
+              Humano (IDH) é de 0,540 (2010), considerado baixo.
+            </p>
+            <p class="card-text">
+              Os primeiros habitantes foram os tupinambás. Em 1501, Américo
+              Vespúcio chegou à foz do Rio São Francisco. No século XVI, a
+              região era chamada Ilha da Paraúna e fazia parte da capitania de
+              Pernambuco, sendo transferida para a Capitania da Baía de Todos os
+              Santos por Carta Régia de 1534. Em 1590, a ilha foi anexada à Vila
+              Nova, atual Neópolis. Em 1812, José Alves Tojal aterrou parte do
+              canal do rio São Francisco para resolver disputas territoriais.
+              Finalmente, a Lei nº 2.099 de 1º de fevereiro de 1873 estabeleceu
+              que Paraúna ficaria sob a posse de Sergipe.
+            </p>
+            </div>
+          <div class="card-footer">
+            <a href="/pesca/municipios/BrejoGrande/historiaGeografiaBrejoGrande.html" class="btn btn-custom">Leia o Texto completo</a>
+          </div>
+        </div>
+        <div class="card text-center" style="margin: 10px">
+          <img
+            class="card-img-top"
+            src="/pesca/style/images/citar.png"
+            alt="Ícone do card 2"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Vozes dos pescadores e pescadoras</h3>
+            <p class="card-text">
+              Ao clicar no botão, você terá acesso às vozes dos pescadores e pescadoras, compartilhando suas experiências sobre a vida na pesca e o impacto dessa atividade em suas comunidades. Eles falam sobre suas jornadas, desafios e o que torna essa atividade tão importante para suas famílias e região.
+            </p>
+            <p class="card-text">
+              Os pescadores e pescadoras também apresentam suas visões e esperanças para o futuro, destacando ideias e iniciativas que possam fortalecer a pesca e melhorar as condições de vida na comunidade. Esses depoimentos revelam a dedicação e resiliência de quem vive da pesca, evidenciando tanto o valor cultural quanto a importância econômica dessa prática.
+            </p>
+          </div>
+          <div class="card-footer">
+            <button
+              type="button"
+              class="btn btn-custom"
+              data-toggle="modal"
+              data-target="#carouselModal"
+            >
+              Veja os depoimentos
+            </button>
+          </div>
+        </div>
+
+        <div class="card text-center" style="margin: 10px">
+          <img
+            class="card-img-top"
+            src="/pesca/style/images/grafico.png"
+            alt="Ícone do card 3"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Gráficos</h3>
+            <p class="card-text">
+              Ao clicar no botão, você encontrará gráficos que ilustram os dados coletados sobre pescadores. Foram entrevistados homens e mulheres com diferentes faixas etárias e níveis de experiência na pesca, permitindo uma visão abrangente sobre o perfil dos trabalhadores locais. Além disso, alguns desses pescadores também se dedicam a outras atividades para complementar sua renda.
+            </p>
+            <p class="card-text">
+              Os gráficos destacam os principais temas abordados pelos pescadores, oferecendo uma compreensão profunda de suas condições de vida, expectativas e visão para o futuro. Entre os assuntos discutidos, estão sugestões para fortalecer a pesca e melhorar o bem-estar da comunidade, refletindo o desejo de promover melhores oportunidades e condições de trabalho para todos.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="/pesca/municipios/BrejoGrande/graficos-BrejoGrande.html"
+              class="btn btn-custom"
+              >Veja os gráficos</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="carouselModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="carouselModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="carouselModalLabel">
+                Depoimentos
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!-- Carousel dentro do Modal -->
+              <div
+                id="carouselExample"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#carouselExample"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li data-target="#carouselExample" data-slide-to="1"></li>
+                  <li data-target="#carouselExample" data-slide-to="2"></li>
+                  <li data-target="#carouselExample" data-slide-to="3"></li>
+                  <li data-target="#carouselExample" data-slide-to="4"></li>
+                  <li data-target="#carouselExample" data-slide-to="5"></li>
+                  <li data-target="#carouselExample" data-slide-to="6"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <!-- Conteúdo Dinâmico -->
+                </div>                                
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExample"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExample"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+        const municipio = new URLSearchParams(window.location.search).get("municipio") || "BrejoGrande";
+      
+        fetch("./municipios.json")
+          .then((response) => response.json())
+          .then((data) => {
+            const municipioData = data.municipios[municipio];
+            console.log(data.municipios[municipio])
+            // Título do município
+            document.querySelector(".titulo-municipio").textContent = municipioData.titulo;
+      
+            // Carrossel
+            const carouselInner = document.querySelector(".carousel-inner");
+            const carouselIndicators = document.querySelector(".carousel-indicators");
+      
+            municipioData.carouselImages.forEach((image, index) => {
+              const isActive = index === 0 ? "active" : "";
+      
+              // Imagem
+              carouselInner.innerHTML += `
+                <div class="carousel-item ${isActive}">
+                  <img class="d-block w-100" src="${image.src}" alt="${image.caption}">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h6>${image.caption}</h6>
+                    <p>${image.author}</p>
+                  </div>
+                </div>
+              `;
+      
+              // Indicadores
+              carouselIndicators.innerHTML += `
+                <li data-target="#carouselExampleIndicators" data-slide-to="${index}" class="${isActive}"></li>
+              `;
+            });
+
+            // Histórico e Geográfico
+            const historicoGeografico = municipioData.historicoGeografico;
+            const historicoContainer = document.querySelector(".bodyHistoria");
+            historicoContainer.innerHTML = `
+                <h3 class="card-title">${historicoGeografico.titulo}</h3>
+                ${historicoGeografico.paragrafos.map(paragrafo => `<p class="card-text">${paragrafo}</p>`).join("")}
+            `;
+      
+            // Primeiras Impressões
+            const primeirasImpressoesContainer = document.querySelector(".bodyApresentacao");
+            municipioData.primeirasImpressoes.forEach((impressao) => {
+              primeirasImpressoesContainer.innerHTML += `<p class="textoApresentacao text-xl-left">${impressao}</p>`;
+            });
+      
+            // Depoimentos
+            const depoimentosContainer = document.querySelector(".modal-body .carousel-inner");
+            municipioData.depoimentos.forEach((depoimento, index) => {
+              const isActive = index === 0 ? "active" : "";
+              depoimentosContainer.innerHTML += `
+                <div class="carousel-item ${isActive}">
+                  <blockquote class="blockquote text-center">
+                    <p class="mb-0">${depoimento.texto}</p>
+                    <footer class="blockquote-footer"><strong>${depoimento.autor}</strong></footer>
+                  </blockquote>
+                </div>
+              `;
+            });
+          })
+          .catch((error) => console.error("Erro ao carregar os dados:", error));
+      </script>
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
